@@ -75,25 +75,25 @@
 
         <!-- Results Section -->
         <div id="resultsSection" class="results-section hidden">
-            <h2>🛡️ Nearest Shelters</h2>
-            
-            <!-- Tab Navigation -->
+            <div class="results-header">
+                <h2>Nearest Emergency Shelters</h2>
+                <p class="results-subtitle">Showing the 10 closest shelters to your location</p>
+                <button id="exportPdfBtn" class="btn btn-secondary export-btn">
+                    Export to PDF
+                </button>
+            </div>
             <div class="tab-navigation">
                 <button id="overviewTab" class="tab-btn active">
-                    <span class="btn-icon">📍</span>
                     Overview
                 </button>
                 <button id="mapTab" class="tab-btn">
-                    <span class="btn-icon">🗺️</span>
                     Map Only
                 </button>
                 <button id="listTab" class="tab-btn">
-                    <span class="btn-icon">📋</span>
                     List Only
                 </button>
                 <button id="linksTab" class="tab-btn">
-                    <span class="btn-icon">🔗</span>
-                    Official Links
+                    Links
                 </button>
             </div>
             
@@ -218,6 +218,11 @@
                 <p id="errorText"></p>
                 <button id="retryButton" class="btn btn-secondary">Try Again</button>
             </div>
+        </div>
+
+        <!-- Hidden Print Container for PDF Export -->
+        <div id="printContainer" class="print-container hidden">
+            <!-- PDF content will be dynamically generated here -->
         </div>
 
         <!-- Footer -->
