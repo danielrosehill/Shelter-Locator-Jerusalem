@@ -623,6 +623,22 @@ class ShelterLocator {
         this.elements.loadingIndicator.classList.remove('hidden');
         this.elements.resultsSection.classList.add('hidden');
     }
+
+    hideLoading() {
+        this.elements.loadingIndicator.classList.add('hidden');
+        this.elements.useCurrentLocationBtn.disabled = false;
+        this.elements.searchAddressBtn.disabled = false;
+    }
+
+    showLocationStatus(locationText) {
+        this.elements.locationStatus.classList.remove('hidden');
+        this.elements.currentLocationText.textContent = locationText;
+    }
+
+    showError(message) {
+        this.hideLoading();
+        this.elements.errorText.textContent = message;
+        this.elements.errorMessage.classList.remove('hidden');
         
         // Scroll to error message
         this.elements.errorMessage.scrollIntoView({ 
@@ -633,6 +649,115 @@ class ShelterLocator {
 
     hideError() {
         this.elements.errorMessage.classList.add('hidden');
+    }
+
+    exportToPdf() {
+        if (!this.nearestShelters || this.nearestShelters.length === 0) {
+            this.showError('No shelter data available to export. Please search for shelters first.');
+            return;
+        }
+
+        // Generate PDF content
+        const printContent = this.generatePrintContent();
+        this.elements.printContainer.innerHTML = printContent;
+
+        // Trigger print dialog
+        window.print();
+    }
+
+    generatePrintContent() {
+        const currentDate = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+
+        const userLocationText = this.elements.currentLocationText.textContent || 'Location not specified';
+
+        let sheltersHtml = '';
+        this.nearestShelters.forEach((shelter, index) => {
+            const walkingTime = this.calculateWalkingTime(shelter.distance);
+            const runningTime = this.calculateRunningTime(shelter.distance);
+            
+            sheltersHtml += `
+                <div class="print-shelter">
+                    <div class="print-shelter-header">
+                        <div class="print-shelter-rank">${index + 1}</div>
+                        <div class="print-shelter-address">${shelter.address}</div>
+                        <div class="print-shelter-distance">${this.formatDistance(shelter.distance)}</div>
+                    </div>
+                    <div class="print-shelter-details">
+                        <div class="print-detail-item">
+                            <span class="print-detail-label">Walking Time:</span> ${walkingTime}
+                        </div>
+                        <div class="print-detail-item">
+                            <span class="print-detail-label">Running Time:</span> ${runningTime}
+                        </div>
+                        <div class="print-detail-item">
+                            <span class="print-detail-label">Capacity:</span> ${shelter.capacity || 'N/A'}
+                        </div>
+                        <div class="print-detail-item">
+                            <span class="print-detail-label">Area:</span> ${shelter.area || 'N/A'} m²
+                        </div>
+                        <div class="print-detail-item">
+                            <span class="print-detail-label">Neighborhood:</span> ${shelter.neighborhood || 'N/A'}
+                        </div>
+                        <div class="print-detail-item">
+                            <span class="print-detail-label">Operator:</span> ${shelter.operator || 'N/A'}
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+
+        return `
+            <div class="print-header">
+                <h1>Jerusalem Emergency Shelters</h1>
+                <p class="print-subtitle">Nearest Shelters to Your Location</p>
+            </div>
+            
+            <div class="print-info">
+                <div class="print-info-item">
+                    <span class="print-detail-label">Your Location:</span><br>
+                    ${userLocationText}
+                </div>
+                <div class="print-info-item">
+                    <span class="print-detail-label">Generated:</span><br>
+                    ${currentDate}
+                </div>
+            </div>
+            
+            ${sheltersHtml}
+            
+            <div class="print-emergency-contacts">
+                <div class="print-emergency-title">Emergency Contacts</div>
+                <div class="print-contacts-grid">
+                    <div class="print-contact-item">
+                        <span class="print-contact-number">100</span>
+                        <span class="print-contact-service">Police</span>
+                    </div>
+                    <div class="print-contact-item">
+                        <span class="print-contact-number">101</span>
+                        <span class="print-contact-service">Ambulance</span>
+                    </div>
+                    <div class="print-contact-item">
+                        <span class="print-contact-number">102</span>
+                        <span class="print-contact-service">Fire Department</span>
+                    </div>
+                    <div class="print-contact-item">
+                        <span class="print-contact-number">104</span>
+                        <span class="print-contact-service">Municipal Hotline</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="print-footer">
+                <p><strong>Important:</strong> This information is not a substitute for official emergency information. Always consult official government sources and emergency services for the most current information.</p>
+                <p>Data source: Jerusalem Municipality | Generated by Jerusalem Shelter Locator</p>
+            </div>
+        `;
     }
 }
 
