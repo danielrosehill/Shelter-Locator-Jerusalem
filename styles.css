@@ -251,6 +251,35 @@ body {
     font-weight: 600;
 }
 
+.results-header {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.results-subtitle {
+    color: #718096;
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+}
+
+.export-btn {
+    background: #38a169;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.export-btn:hover {
+    background: #2f855a;
+    transform: translateY(-1px);
+}
+
 /* Tab Navigation */
 .tab-navigation {
     display: flex;
@@ -750,6 +779,185 @@ body {
     
     .shelter-actions {
         flex-direction: column;
+    }
+}
+
+/* Print Styles for PDF Export */
+.print-container {
+    display: none;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    
+    .print-container,
+    .print-container * {
+        visibility: visible;
+    }
+    
+    .print-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        display: block !important;
+        background: white;
+        color: black;
+        font-family: Arial, sans-serif;
+        font-size: 12pt;
+        line-height: 1.4;
+        padding: 20px;
+    }
+    
+    .print-header {
+        text-align: center;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #333;
+        padding-bottom: 15px;
+    }
+    
+    .print-header h1 {
+        font-size: 18pt;
+        margin: 0 0 10px 0;
+        color: #333;
+    }
+    
+    .print-header .print-subtitle {
+        font-size: 12pt;
+        color: #666;
+        margin: 0;
+    }
+    
+    .print-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 25px;
+        font-size: 11pt;
+    }
+    
+    .print-info-item {
+        background: #f5f5f5;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .print-info-label {
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .print-shelter {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        page-break-inside: avoid;
+    }
+    
+    .print-shelter-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 8px;
+    }
+    
+    .print-shelter-rank {
+        background: #333;
+        color: white;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 11pt;
+    }
+    
+    .print-shelter-address {
+        font-weight: bold;
+        font-size: 13pt;
+        color: #333;
+        flex: 1;
+        margin-left: 15px;
+    }
+    
+    .print-shelter-distance {
+        font-weight: bold;
+        color: #666;
+        font-size: 12pt;
+    }
+    
+    .print-shelter-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 10px;
+        font-size: 10pt;
+    }
+    
+    .print-detail-item {
+        background: #f9f9f9;
+        padding: 8px;
+        border-radius: 3px;
+    }
+    
+    .print-detail-label {
+        font-weight: bold;
+        color: #555;
+    }
+    
+    .print-emergency-contacts {
+        margin-top: 30px;
+        border-top: 2px solid #333;
+        padding-top: 20px;
+    }
+    
+    .print-emergency-title {
+        font-size: 14pt;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .print-contacts-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .print-contact-item {
+        background: #f0f0f0;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .print-contact-number {
+        font-size: 14pt;
+        font-weight: bold;
+        color: #333;
+        display: block;
+    }
+    
+    .print-contact-service {
+        font-size: 9pt;
+        color: #666;
+    }
+    
+    .print-footer {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 9pt;
+        color: #666;
+        border-top: 1px solid #ddd;
+        padding-top: 15px;
     }
 }
 

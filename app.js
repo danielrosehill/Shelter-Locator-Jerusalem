@@ -42,7 +42,9 @@ class ShelterLocator {
             mapContent: document.getElementById('mapContent'),
             listContent: document.getElementById('listContent'),
             linksContent: document.getElementById('linksContent'),
-            sheltersListFull: document.getElementById('sheltersListFull')
+            sheltersListFull: document.getElementById('sheltersListFull'),
+            exportPdfBtn: document.getElementById('exportPdfBtn'),
+            printContainer: document.getElementById('printContainer')
         };
     }
 
@@ -60,6 +62,7 @@ class ShelterLocator {
         this.elements.mapTab.addEventListener('click', () => this.switchTab('map'));
         this.elements.listTab.addEventListener('click', () => this.switchTab('list'));
         this.elements.linksTab.addEventListener('click', () => this.switchTab('links'));
+        this.elements.exportPdfBtn.addEventListener('click', () => this.exportToPdf());
     }
 
     async loadShelterData() {
@@ -620,22 +623,6 @@ class ShelterLocator {
         this.elements.loadingIndicator.classList.remove('hidden');
         this.elements.resultsSection.classList.add('hidden');
     }
-
-    hideLoading() {
-        this.elements.loadingIndicator.classList.add('hidden');
-        this.elements.useCurrentLocationBtn.disabled = false;
-        this.elements.searchAddressBtn.disabled = false;
-    }
-
-    showLocationStatus(locationText) {
-        this.elements.currentLocationText.textContent = locationText;
-        this.elements.locationStatus.classList.remove('hidden');
-    }
-
-    showError(message) {
-        this.hideLoading();
-        this.elements.errorText.textContent = message;
-        this.elements.errorMessage.classList.remove('hidden');
         
         // Scroll to error message
         this.elements.errorMessage.scrollIntoView({ 
