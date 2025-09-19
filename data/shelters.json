@@ -1,0 +1,3712 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22139609,
+          31.79120318
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Beit Yisrael",
+        "shelter_no": "841",
+        "waze_link": "https://www.waze.com/ul?ll=31.79069840,35.22133660&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Mosiyof\" synagogue",
+        "address_label": "25 Yoel St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "HaBucharim - Beit Yisrael",
+        "row_number": 2,
+        "google_maps_link": "https://www.google.com/maps/dir//31.79120318,35.22139609+(25+Yoel+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2232357,
+          31.79208743
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Beit Yisrael",
+        "shelter_no": "908",
+        "waze_link": "https://www.waze.com/ul?ll=31.79186860,35.22323570&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Bucharim Community Administration",
+        "address_label": "22 Shimshon Polanski St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "HaBucharim - Beit Yisrael",
+        "row_number": 3,
+        "google_maps_link": "https://www.google.com/maps/dir//31.79208743,35.2232357+(22+Shimshon+Polanski+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21700218,
+          31.77014346
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Talbiya",
+        "shelter_no": "Public Shelter No. 807",
+        "waze_link": "https://www.waze.com/ul?ll=31.77001220,35.21782930&amp;navigate=yes&amp;zoom=16",
+        "area": "115",
+        "type": "",
+        "capacity": "92",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "7 Benjamin Disraeli St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Talbiya - Komemiyut",
+        "row_number": 4,
+        "google_maps_link": "https://www.google.com/maps/dir//31.77014346,35.21700218+(7+Benjamin+Disraeli+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21872527,
+          31.79755634
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Sanhedria",
+        "shelter_no": "Public Shelter No.602",
+        "waze_link": "https://www.waze.com/ul?ll=31.79747430,35.21873600&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "Shelter",
+        "capacity": "80",
+        "operator": "\"Hasidei Morditz\" yeshiva",
+        "address_label": "6 HaSanhedrin St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Sanhedria",
+        "row_number": 5,
+        "google_maps_link": "https://www.google.com/maps/dir//31.79755634,35.21872527+(6+HaSanhedrin+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2188737,
+          31.795412149351
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Shmuel HaNavi",
+        "shelter_no": "Public Shelter No.604",
+        "waze_link": "https://www.waze.com/ul?ll=31.79568800,35.21879420&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "8 Shimon Hacham St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Shmuel HaNavi",
+        "row_number": 6,
+        "google_maps_link": "https://www.google.com/maps/dir//31.795412149351,35.2188737+(8+Shimon+Hacham+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2144723462723,
+          31.795624849267
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Romema",
+        "shelter_no": "Public Shelter No.606",
+        "waze_link": "https://www.waze.com/ul?ll=31.79558840,35.21449380&amp;navigate=yes&amp;zoom=16",
+        "area": "80",
+        "type": "",
+        "capacity": "64",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "1 Pnina St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Romema",
+        "row_number": 7,
+        "google_maps_link": "https://www.google.com/maps/dir//31.795624849267,35.2144723462723+(1+Pnina+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2176755,
+          31.79229011
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Bucharim",
+        "shelter_no": "Public Shelter No.609",
+        "waze_link": "https://www.waze.com/ul?ll=31.79223540,35.21767550&amp;navigate=yes&amp;zoom=16?ll=31.79223540,35.21767550&amp;navigate=yes&amp;zoom=16",
+        "area": "250",
+        "type": "Shelter",
+        "capacity": "200",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "23 Yisa Bracha St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "HaBucharim - Beit Yisrael",
+        "row_number": 8,
+        "google_maps_link": "https://www.google.com/maps/dir//31.79229011,35.2176755+(23+Yisa+Bracha+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22089024,
+          31.78987955
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Bukharim",
+        "shelter_no": "Public Shelter No.612",
+        "waze_link": "https://www.waze.com/ul?ll=31.78984170,35.22089090&amp;navigate=yes&amp;zoom=16?ll=31.78984170,35.22089090&amp;navigate=yes&amp;zoom=16",
+        "area": "50",
+        "type": "Shelter",
+        "capacity": "40",
+        "operator": "Karlin Hasidic community",
+        "address_label": "16 Yoel St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "HaBucharim - Beit Yisrael",
+        "row_number": 9,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78987955,35.22089024+(16+Yoel+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22309569,
+          31.7924923314014
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Shmuel HaNavi",
+        "shelter_no": "Public Shelter No.616",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJu7pxf90pAxURLAhuO0f2chM&amp;ll=31.79247020,35.22314580&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "",
+        "type": "Shelter",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "61 Shmuel Hanavi St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Shmuel HaNavi",
+        "row_number": 10,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7924923314014,35.22309569+(61+Shmuel+Hanavi+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22315682,
+          31.7928607312923
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Shmuel HaNavi",
+        "shelter_no": "Public Shelter No.618",
+        "waze_link": "https://www.waze.com/ul?ll=31.79279960,35.22317870&amp;navigate=yes&amp;zoom=16",
+        "area": "110",
+        "type": "",
+        "capacity": "137",
+        "operator": "\"Ohalei Ya'akov\" synagogue",
+        "address_label": "66 Shmuel HaNavi St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Shmuel HaNavi",
+        "row_number": 11,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7928607312923,35.22315682+(66+Shmuel+HaNavi+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2196259,
+          31.78971852
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Geula",
+        "shelter_no": "Public Shelter No.621",
+        "waze_link": "https://www.waze.com/ul?ll=31.78944350,35.21955760&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "8 Hoshe'a St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Geula",
+        "row_number": 12,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78971852,35.2196259+(8+Hoshe'a+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22459891,
+          31.78581751
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Mea She'arim",
+        "shelter_no": "Public Shelter No.632",
+        "waze_link": "https://www.waze.com/ul?ll=31.78564640,35.22460790&amp;navigate=yes&amp;zoom=16",
+        "area": "80",
+        "type": "Shelter",
+        "capacity": "64",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "87 Me'a She'arim St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Mea Shearim",
+        "row_number": 13,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78581751,35.22459891+(87+Me'a+She'arim+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21997837,
+          31.7877374
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Geula",
+        "shelter_no": "Public Shelter No.637",
+        "waze_link": "https://www.waze.com/ul?ll=31.78767970,35.21894860&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "18 Nahman MiBreslev St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Geula",
+        "row_number": 14,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7877374,35.21997837+(18+Nahman+MiBreslev+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2151295195639,
+          31.7857051633117
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "City Center",
+        "shelter_no": "Public Shelter No.639",
+        "waze_link": "https://www.waze.com/ul?ll=31.78554110,35.21520460&amp;navigate=yes&amp;zoom=16",
+        "area": "250",
+        "type": "",
+        "capacity": "200",
+        "operator": "Degel Yerushalayim",
+        "address_label": "2 Michel Pines St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "City Center",
+        "row_number": 15,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7857051633117,35.2151295195639+(2+Michel+Pines+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21424313,
+          31.78927688
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Mekor Baruch",
+        "shelter_no": "Public Shelter No.641",
+        "waze_link": "https://www.waze.com/ul?ll=31.78913660,35.21372570&amp;navigate=yes&amp;zoom=16",
+        "area": "180",
+        "type": "",
+        "capacity": "144",
+        "operator": "\"HaMeor Nativ Kodesh\" organization",
+        "address_label": "25 Kfar Nahum St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Makor Baruch",
+        "row_number": 16,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78927688,35.21424313+(25+Kfar+Nahum+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21083998,
+          31.79060663
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Mekor Baruch",
+        "shelter_no": "Public Shelter No.643",
+        "waze_link": "https://www.waze.com/ul?ll=31.79037470,35.21093400&amp;navigate=yes&amp;zoom=16",
+        "area": "400",
+        "type": "",
+        "capacity": "320",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "73 Malkei Israel St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Makor Baruch",
+        "row_number": 17,
+        "google_maps_link": "https://www.google.com/maps/dir//31.79060663,35.21083998+(73+Malkei+Israel+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20939807,
+          31.78336583
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Mahane Yehuda",
+        "shelter_no": "Public Shelter No.648",
+        "waze_link": "https://www.waze.com/ul?ll=31.78341050,35.20962170&amp;navigate=yes&amp;zoom=16",
+        "area": "236",
+        "type": "",
+        "capacity": "188",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "15 Nahar Prat St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "City Center",
+        "row_number": 18,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78336583,35.20939807+(15+Nahar+Prat+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21119735,
+          31.77968218
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Nachlaot",
+        "shelter_no": "Public Shelter No.657",
+        "waze_link": "https://www.waze.com/ul?ll=31.77953990,35.21121990&amp;navigate=yes&amp;zoom=16",
+        "area": "",
+        "type": "",
+        "capacity": "400",
+        "operator": "Society Division of Jerusalem Municipality, \"Ariel\" youth movement",
+        "address_label": "21 Tsfat St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Nachlaot - Lev Ha'ir",
+        "row_number": 19,
+        "google_maps_link": "https://www.google.com/maps/dir//31.77968218,35.21119735+(21+Tsfat+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2141171039459,
+          31.7756013987167
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Rehavia",
+        "shelter_no": "Public Shelter No.658",
+        "waze_link": "https://www.waze.com/ul?ll=31.77552590,35.21402360&amp;navigate=yes&amp;zoom=16",
+        "area": "80",
+        "type": "",
+        "capacity": "64",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "13 Ibn Ezra St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Rehavia",
+        "row_number": 20,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7756013987167,35.2141171039459+(13+Ibn+Ezra+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2153943174367,
+          31.7751110573696
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Rehavia",
+        "shelter_no": "Public Shelter No.659",
+        "waze_link": "https://www.waze.com/ul?ll=31.77508850,35.21529880&amp;navigate=yes&amp;zoom=16",
+        "area": "160",
+        "type": "",
+        "capacity": "128",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "15 Ibn Gabirol St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Rehavia",
+        "row_number": 21,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7751110573696,35.2153943174367+(15+Ibn+Gabirol+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2110439327826,
+          31.7674870956754
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat Shmuel",
+        "shelter_no": "Public Shelter No.667",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJqRFPadfXAhURTfNMjSFVJ2A&amp;ll=31.76747800,35.21103320&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "180",
+        "type": "",
+        "capacity": "144",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "22 HaPalmach St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Shmuel",
+        "row_number": 22,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7674870956754,35.2110439327826+(22+HaPalmach+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21287922,
+          31.76565605
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "",
+        "shelter_no": "Public Shelter No.670",
+        "waze_link": "https://www.waze.com/ul?ll=31.76545540,35.21291140&amp;navigate=yes&amp;zoom=16",
+        "area": "140",
+        "type": "Shelter",
+        "capacity": "112",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "9 Bostanai St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "German Colony",
+        "row_number": 23,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76565605,35.21287922+(9+Bostanai+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2138039462735,
+          31.7661670656405
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Old Katamon",
+        "shelter_no": "Public Shelter No.671",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJr7GH8dfXAhURbAYF-CIC8ro&amp;ll=31.76615520,35.21380620&amp;navigate=yes&amp;utm_campaign=default,default&amp;utm_source=waze_website,waze_website&amp;utm_medium=lm_share_location",
+        "area": "160",
+        "type": "",
+        "capacity": "128",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "22 Kaf Tet BeNovember St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim, Accessible Shelter",
+        "row_number": 24,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7661670656405,35.2138039462735+(22+Kaf+Tet+BeNovember+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21736907,
+          31.76506375
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Emek Refaim",
+        "shelter_no": "Public Shelter No.672",
+        "waze_link": "https://www.waze.com/ul?ll=31.76495610,35.21729920&amp;navigate=yes&amp;zoom=16",
+        "area": "150",
+        "type": "",
+        "capacity": "120",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "10 Ruth St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "German Colony",
+        "row_number": 25,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76506375,35.21736907+(10+Ruth+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21629892,
+          31.78075326
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Emek Refaim",
+        "shelter_no": "Public Shelter No.673",
+        "waze_link": "https://www.waze.com/ul?ll=31.76346690,35.21857070&amp;navigate=yes&amp;zoom=16",
+        "area": "114",
+        "type": "Shelter",
+        "capacity": "91",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "3 Malal St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "German Colony",
+        "row_number": 26,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78075326,35.21629892+(3+Malal+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.218209,
+          31.76617023
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Emek Refaim",
+        "shelter_no": "Public Shelter No.674",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJSd1N-_kpAxURhzRLw1T-FdE&amp;ll=31.76597870,35.21828410&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "150",
+        "type": "",
+        "capacity": "120",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "7 Bachar St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "HaMoshava HaGermanit",
+        "row_number": 27,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76617023,35.218209+(7+Bachar+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22099657,
+          31.76455263
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Emek Refaim",
+        "shelter_no": "Public Shelter No.676",
+        "waze_link": "https://www.waze.com/ul?ll=31.76436110,35.22100730&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "6 Emile Zola St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "German Colony",
+        "row_number": 28,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76455263,35.22099657+(6+Emile+Zola+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22126489,
+          31.76403005
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Emek Refaim",
+        "shelter_no": "Public Shelter No.677",
+        "waze_link": "https://www.waze.com/ul?ll=31.76362400,35.22109630&amp;navigate=yes&amp;zoom=16",
+        "area": "290",
+        "type": "",
+        "capacity": "232",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "6 Wyndham Deedes St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "German Colony",
+        "row_number": 29,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76403005,35.22126489+(6+Wyndham+Deedes+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2256433,
+          31.7634366619788
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Talpiot",
+        "shelter_no": "Public Shelter No.679",
+        "waze_link": "https://www.waze.com/ul?ll=31.76344980,35.22545390&amp;navigate=yes&amp;zoom=16",
+        "area": "200",
+        "type": "",
+        "capacity": "160",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "59 Hebron Rd.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Talpiyot - Arnona",
+        "row_number": 30,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7634366619788,35.2256433+(59+Hebron+Rd.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2189683,
+          31.75959347
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Baka",
+        "shelter_no": "Public Shelter No.681",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJZfgatiYoAxURNuZXb0gVP9k&amp;ll=31.75939280,35.21896830&amp;navigate=yes&amp;utm_campaign=default,default&amp;utm_source=waze_website,waze_website&amp;utm_medium=lm_share_location",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "8 Efrayim St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Baka",
+        "row_number": 31,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75959347,35.2189683+(8+Efrayim+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2188286,
+          31.75951784
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Baka",
+        "shelter_no": "Public Shelter No.682",
+        "waze_link": "https://www.waze.com/ul?ll=31.75935280,35.21890230&amp;navigate=yes&amp;zoom=16",
+        "area": "135",
+        "type": "",
+        "capacity": "108",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "14 Reuven St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Baka",
+        "row_number": 32,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75951784,35.2188286+(14+Reuven+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2235262,
+          31.76002206
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Baka",
+        "shelter_no": "Public Shelter No.683",
+        "waze_link": "https://www.waze.com/ul?ll=31.75982140,35.22352620&amp;navigate=yes&amp;zoom=16",
+        "area": "170",
+        "type": "",
+        "capacity": "136",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "54 Hebron Rd.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Baka",
+        "row_number": 33,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76002206,35.2235262+(54+Hebron+Rd.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22264,
+          31.75875
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Baka",
+        "shelter_no": "Public Shelter No.684",
+        "waze_link": "https://goo.gl/maps/DBvHPN7VXXp?ll=31.75982140,35.22352620&amp;navigate=yes&amp;zoom=16",
+        "area": "295",
+        "type": "",
+        "capacity": "236",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "6 Esther HaMalka St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Baka",
+        "row_number": 34,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75875,35.22264+(6+Esther+HaMalka+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22199465,
+          31.75722449
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Baka",
+        "shelter_no": "Public Shelter No.685",
+        "waze_link": "https://www.waze.com/ul?ll=31.75702360,35.22194250&amp;navigate=yes&amp;zoom=16",
+        "area": "200",
+        "type": "",
+        "capacity": "160",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "6 Mordechai HaYehudi St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Baka",
+        "row_number": 35,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75722449,35.22199465+(6+Mordechai+HaYehudi+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22182315,
+          31.7525460893196
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Talpiot",
+        "shelter_no": "Public Shelter No.688",
+        "waze_link": "https://www.waze.com/ul?ll=31.75255220,35.22187030&amp;navigate=yes&amp;zoom=16",
+        "area": "200",
+        "type": "",
+        "capacity": "160",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "18 Efrata St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Talpiyot - Arnona",
+        "row_number": 36,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7525460893196,35.22182315+(18+Efrata+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2200234,
+          31.74909478061
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Talpiot",
+        "shelter_no": "Public Shelter No.689",
+        "waze_link": "https://ul.waze.com/ul?place=EiRCZW4gR2F2cmllbCBTdCAxMCwgSmVydXNhbGVtLCBJc3JhZWwiMBIuChQKEgnhMXQxGSgDFRFagfdZzXwTkBAKKhQKEgkrfJE2GSgDFRENScS7vvQR_A&amp;ll=31.75021310,35.22088390&amp;navigate=yes&amp;utm_campaign=default,default&amp;utm_source=waze_website,waze_website&amp;utm_medium=lm_share_location",
+        "area": "90",
+        "type": "",
+        "capacity": "72",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "10 Ben Gavriel St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Talpiyot - Arnona",
+        "row_number": 37,
+        "google_maps_link": "https://www.google.com/maps/dir//31.74909478061,35.2200234+(10+Ben+Gavriel+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2234383,
+          31.74919744
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Talpiot",
+        "shelter_no": "Public Shelter No.690",
+        "waze_link": "https://ul.waze.com/ul?venue_id=23068989.230820967.255811&amp;overview=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "240",
+        "type": "",
+        "capacity": "192",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "1 Leib Yaffe St., jerusalem",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Talpiyot - Arnona",
+        "row_number": 38,
+        "google_maps_link": "https://www.google.com/maps/dir//31.74919744,35.2234383+(1+Leib+Yaffe+St.,+jerusalem)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21891075,
+          31.7520877741159
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Talpiot",
+        "shelter_no": "Public Shelter No.691",
+        "waze_link": "https://ul.waze.com/ul?ll=31.75189020,35.21884540&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.75177480,35.21944020&amp;navigate=yes&amp;zoom=16",
+        "area": "440",
+        "type": "",
+        "capacity": "352",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "93 Bethlehem Rd.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Talpiyot - Arnona",
+        "row_number": 39,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7520877741159,35.21891075+(93+Bethlehem+Rd.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21468592,
+          31.76274013
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Emek Refaim",
+        "shelter_no": "Public Shelter No.693",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJ9b5pgtjXAhURt4V9xghL4h4&amp;ll=31.76251050,35.21476740&amp;navigate=yes&amp;utm_campaign=default,default&amp;utm_source=waze_website,waze_website&amp;utm_medium=lm_share_location",
+        "area": "170",
+        "type": "",
+        "capacity": "136",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "9 Yotam St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "German Colony",
+        "row_number": 40,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76274013,35.21468592+(9+Yotam+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21556613,
+          31.76231446
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "German Colony",
+        "shelter_no": "Public Shelter No.695",
+        "waze_link": "https://www.waze.com/ul?ll=31.76225270,35.21485970&amp;navigate=yes&amp;zoom=16",
+        "area": "250",
+        "type": "",
+        "capacity": "200",
+        "operator": "Chabad synagogue",
+        "address_label": "2 Amatsiya St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "German Colony",
+        "row_number": 41,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76231446,35.21556613+(2+Amatsiya+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21325687,
+          31.76129246
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Old Katamon",
+        "shelter_no": "Public Shelter No.696",
+        "waze_link": "https://www.waze.com/ul?ll=31.76109180,35.21334270&amp;navigate=yes&amp;zoom=16",
+        "area": "164",
+        "type": "",
+        "capacity": "131",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "3 Reish Lakish St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 42,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76129246,35.21325687+(3+Reish+Lakish+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21523335,
+          31.76069919
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Emek Refaim",
+        "shelter_no": "Public Shelter No.697",
+        "waze_link": "https://www.waze.com/ul?ll=31.76055700,35.21525000&amp;navigate=yes&amp;zoom=16",
+        "area": "160",
+        "type": "",
+        "capacity": "128",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "27 Yehoshua Bin Nun St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "German Colony",
+        "row_number": 43,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76069919,35.21523335+(27+Yehoshua+Bin+Nun+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20489024,
+          31.7563287
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Old Katamon&nbsp;",
+        "shelter_no": "Public Shelter No.703",
+        "waze_link": "https://www.waze.com/ul?ll=31.75604300,35.20517330&amp;navigate=yes&amp;zoom=16",
+        "area": "170",
+        "type": "",
+        "capacity": "136",
+        "operator": "\"Zchut Avot\" synagogue",
+        "address_label": "53 Yohanan Ben Zakai St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 44,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7563287,35.20489024+(53+Yohanan+Ben+Zakai+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20108822,
+          31.7613637184524
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Giv'at Havradim (Rassco)",
+        "shelter_no": "Public Shelter No.715",
+        "waze_link": "https://goo.gl/maps/wPX1uqTVmXT2?ll=31.78996270,35.21151270&amp;navigate=yes&amp;zoom=16",
+        "area": "180",
+        "type": "",
+        "capacity": "144",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "52 David Shimoni St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Rassco - Givat HaVradim",
+        "row_number": 45,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7613637184524,35.20108822+(52+David+Shimoni+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19382965,
+          31.75450818
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.718",
+        "waze_link": "https://ul.waze.com/ul?ll=31.75369450,35.19495770&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "120",
+        "type": "",
+        "capacity": "96",
+        "operator": "Gonenim Community Administration",
+        "address_label": "6 Rabbi Tzadok St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 46,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75450818,35.19382965+(6+Rabbi+Tzadok+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1773231616195,
+          31.7554799513654
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.721",
+        "waze_link": "https://www.waze.com/ul?ll=31.75548920,35.17729790&amp;navigate=yes&amp;zoom=16",
+        "area": "130",
+        "type": "",
+        "capacity": "104",
+        "operator": "Community Administration, Public Health Division, Jerusalem Municipality",
+        "address_label": "29 Uruguay St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 47,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7554799513654,35.1773231616195+(29+Uruguay+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.176665232783,
+          31.7563746741139
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.722",
+        "waze_link": "https://www.waze.com/ul?ll=31.75637470,35.17665450&amp;navigate=yes&amp;zoom=16",
+        "area": "130",
+        "type": "",
+        "capacity": "104",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "67 Avraham Stern St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 48,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7563746741139,35.176665232783+(67+Avraham+Stern+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.17664425,
+          31.75424528
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.723",
+        "waze_link": "https://www.waze.com/ul?ll=31.75340830,35.17668960&amp;navigate=yes&amp;zoom=16",
+        "area": "130",
+        "type": "",
+        "capacity": "104",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "51 Avraham Stern St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel, Accessible Shelter",
+        "row_number": 49,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75424528,35.17664425+(51+Avraham+Stern+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.17758566,
+          31.75837336
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.724",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJdyRIaYrXAhURPNretZHvuoQ&amp;ll=31.75819100,35.17760710&amp;navigate=yes&amp;utm_campaign=default,default&amp;utm_source=waze_website,waze_website&amp;utm_medium=lm_share_location",
+        "area": "90",
+        "type": "",
+        "capacity": "72",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "9 Volta Ilit St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 50,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75837336,35.17758566+(9+Volta+Ilit+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.17212095,
+          31.75304368
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Ir Ganim",
+        "shelter_no": "Public Shelter No.726",
+        "waze_link": "https://www.waze.com/ul?ll=31.75274090,35.17059330&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "350",
+        "type": "",
+        "capacity": "280",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "123 HaNurit St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Ir Ganim",
+        "row_number": 51,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75304368,35.17212095+(123+HaNurit+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.17106527,
+          31.75270968
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Eir Ganim",
+        "shelter_no": "Public Shelter No.726 A",
+        "waze_link": "https://ul.waze.com/ul?ll=31.75250820,35.17107770&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "120",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "124 HaNurit St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Ir Ganim",
+        "row_number": 52,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75270968,35.17106527+(124+HaNurit+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.171552,
+          31.75252344
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Eir Ganim",
+        "shelter_no": "Public Shelter No.726 B",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJzQ612oHXAhURnoWZamTgVGQ&amp;ll=31.75234100,35.17155200&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "120",
+        "type": "",
+        "capacity": "96",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "125 HaNurit St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Ir Ganim",
+        "row_number": 53,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75252344,35.171552+(125+HaNurit+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.17056825,
+          31.75457225
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Ir Ganim&nbsp;",
+        "shelter_no": "Public Shelter No.727",
+        "waze_link": "https://www.waze.com/ul?ll=31.75358540,35.17104630&amp;navigate=yes&amp;zoom=16",
+        "area": "120",
+        "type": "",
+        "capacity": "148",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "104 HaNurit St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Ir Ganim",
+        "row_number": 54,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75457225,35.17056825+(104+HaNurit+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.17017787,
+          31.754851
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Ir Ganim",
+        "shelter_no": "Public Shelter No.728",
+        "waze_link": "https://www.waze.com/live-map/directions?navigate=yes&amp;to=ll.31.753476,35.1711774",
+        "area": "183",
+        "type": "",
+        "capacity": "148",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "102 HaNurit St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Ir Ganim",
+        "row_number": 55,
+        "google_maps_link": "https://www.google.com/maps/dir//31.754851,35.17017787+(102+HaNurit+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1658768,
+          31.75615742
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat Menachem",
+        "shelter_no": "Public Shelter No.729",
+        "waze_link": "https://www.waze.com/ul?ll=31.75593850,35.16587680&amp;navigate=yes&amp;zoom=16",
+        "area": "250",
+        "type": "",
+        "capacity": "200",
+        "operator": "Ganim Community Administration",
+        "address_label": "7 Dahomey St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Menachem",
+        "row_number": 56,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75615742,35.1658768+(7+Dahomey+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1667934039464,
+          31.7582757415388
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat Menachem",
+        "shelter_no": "Public Shelter No.730",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJL0C2OHnXAhURTM92rdLO7H8&amp;ll=31.75653780,35.16683050&amp;navigate=yes&amp;utm_campaign=default,default&amp;utm_source=waze_website,waze_website&amp;utm_medium=lm_share_location",
+        "area": "196",
+        "type": "",
+        "capacity": "156",
+        "operator": "\"Magen David\" synagogue",
+        "address_label": "3 Dahomey St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Menachem",
+        "row_number": 57,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7582757415388,35.1667934039464+(3+Dahomey+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.16537727,
+          31.75967074
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat Menachem",
+        "shelter_no": "Public Shelter No.734",
+        "waze_link": "https://www.waze.com/ul?ll=31.75949260,35.16539450&amp;navigate=yes&amp;zoom=16",
+        "area": "130",
+        "type": "",
+        "capacity": "104",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "17 Iceland St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Menachem, Accessible Shelter",
+        "row_number": 58,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75967074,35.16537727+(17+Iceland+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.16537727,
+          31.75967074
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat Menachem",
+        "shelter_no": "Public Shelter No.734 A",
+        "waze_link": "https://www.waze.com/ul?ll=31.75949260,35.16539450&amp;navigate=yes&amp;zoom=16",
+        "area": "170",
+        "type": "",
+        "capacity": "136",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "17 Iceland St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Menachem, Accessible Shelter",
+        "row_number": 59,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75967074,35.16537727+(17+Iceland+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1704658,
+          31.76074271
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.736",
+        "waze_link": "https://www.waze.com/ul?ll=31.76052380,35.17046580&amp;navigate=yes&amp;zoom=16",
+        "area": "200",
+        "type": "",
+        "capacity": "160",
+        "operator": "Yuvalim Community Administration",
+        "address_label": "8 Chile St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 60,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76074271,35.1704658+(8+Chile+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1720983,
+          31.76016281
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.737",
+        "waze_link": "https://www.waze.com/ul?ll=31.75984730,35.17217080&amp;navigate=yes&amp;zoom=16",
+        "area": "150",
+        "type": "",
+        "capacity": "120",
+        "operator": "\"Mishkan Mordechai\" synagogue",
+        "address_label": "32 Janus Korczak St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel, Accessible Shelter",
+        "row_number": 61,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76016281,35.1720983+(32+Janus+Korczak+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.17317009,
+          31.76217764
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.738",
+        "waze_link": "https://www.waze.com/ul?ll=31.76316000,35.17319900&amp;navigate=yes&amp;zoom=16?ll=31.76316000,35.17319900&amp;navigate=yes&amp;zoom=16",
+        "area": "90",
+        "type": "",
+        "capacity": "72",
+        "operator": "\"Bnei Akiva\" youth movement",
+        "address_label": "78 Anielewicz St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 62,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76217764,35.17317009+(78+Anielewicz+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.17604607,
+          31.76613405
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.739",
+        "waze_link": "https://www.waze.com/ul?ll=31.76593340,35.17605680&amp;navigate=yes&amp;zoom=16",
+        "area": "90",
+        "type": "",
+        "capacity": "72",
+        "operator": "Jerusalem Municipality's Society Division, \"Hashomer Hatzair\" youth movement",
+        "address_label": "3 Schmorak St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 63,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76613405,35.17604607+(3+Schmorak+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1783010039463,
+          31.7672235820797
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.741",
+        "waze_link": "https://ul.waze.com/ul?place=EidJc3JhZWwgWmFuZ3ZpbGwgU3QgNSwgSmVydXNhbGVtLCBJc3JhZWwiMBIuChQKEglhFh1xotcCFRFtB0gH5wU2kRAFKhQKEgnjZ3TEmNcCFRGlVBnUUJAP9g&amp;ll=31.76717800,35.17830100&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.76739980,35.17825480&amp;navigate=yes&amp;zoom=16",
+        "area": "90",
+        "type": "Shelter",
+        "capacity": "72",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "5 Yisrael Zangvill St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 64,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7672235820797,35.1783010039463+(5+Yisrael+Zangvill+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.18298046,
+          31.76591212
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Bayit VeGan",
+        "shelter_no": "Public Shelter No.742",
+        "waze_link": "https://goo.gl/maps/rnoVPRLtCRr?ll=31.75734040,35.22089700&amp;navigate=yes&amp;zoom=16",
+        "area": "270",
+        "type": "",
+        "capacity": "216",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "7 Sha'arei Tora St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Bayit VeGan",
+        "row_number": 65,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76591212,35.18298046+(7+Sha'arei+Tora+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.18451955,
+          31.76926455
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Bayit VeGan",
+        "shelter_no": "Public Shelter No.743",
+        "waze_link": "https://www.waze.com/ul?ll=31.76566530,35.18285900&amp;navigate=yes&amp;zoom=16",
+        "area": "115",
+        "type": "",
+        "capacity": "92",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "39 Bayit VaGan St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Bayit VeGan",
+        "row_number": 66,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76926455,35.18451955+(39+Bayit+VaGan+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19041839,
+          31.77512976
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Beit HaKerem",
+        "shelter_no": "Public Shelter No.744",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJLcCiqLfXAhUR_SxxejzKonQ&amp;ll=31.77501350,35.19041570&amp;navigate=yes&amp;utm_campaign=default,default&amp;utm_source=waze_website,waze_website&amp;utm_medium=lm_share_location",
+        "area": "170",
+        "type": "",
+        "capacity": "136",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "4 HaBanai St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Beit HaKerem",
+        "row_number": 67,
+        "google_maps_link": "https://www.google.com/maps/dir//31.77512976,35.19041839+(4+HaBanai+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1922193,
+          31.7775352
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Beit HaKerem",
+        "shelter_no": "Public Shelter No.745",
+        "waze_link": "https://www.waze.com/ul?ll=31.77748050,35.19221930&amp;navigate=yes&amp;zoom=16?ll=31.77748050,35.19221930&amp;navigate=yes&amp;zoom=16?ll=31.77748050,35.19221930&amp;navigate=yes&amp;zoom=16",
+        "area": "170​",
+        "type": "",
+        "capacity": "136",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "30 HaBanai St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Beit HaKerem",
+        "row_number": 68,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7775352,35.1922193+(30+HaBanai+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19554033,
+          31.78803628
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat Moshe",
+        "shelter_no": "Public Shelter No.748",
+        "waze_link": "https://www.waze.com/ul?ll=31.78791710,35.19552270&amp;navigate=yes&amp;zoom=16",
+        "area": "134",
+        "type": "",
+        "capacity": "107",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "2 Ha'ilui St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Moshe",
+        "row_number": 69,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78803628,35.19554033+(2+Ha'ilui+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20083957,
+          31.79611804
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Romema",
+        "shelter_no": "Public Shelter No.750",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJTyywYDzWAhURQrtyZ5Wv-EE&amp;ll=31.79594850,35.20085500&amp;navigate=yes&amp;utm_campaign=default,default&amp;utm_source=waze_website,waze_website&amp;utm_medium=lm_share_location",
+        "area": "130",
+        "type": "",
+        "capacity": "104",
+        "operator": "Romema Community Administration",
+        "address_label": "5 Zichron Ya'akov St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Romema",
+        "row_number": 70,
+        "google_maps_link": "https://www.google.com/maps/dir//31.79611804,35.20083957+(5+Zichron+Ya'akov+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2264040677971,
+          31.7831014148958
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Morasha",
+        "shelter_no": "Public Shelter No.751",
+        "waze_link": "https://ul.waze.com/ul?place=EhtIYUF5aW4gSGV0IFN0IDEwLCBKZXJ1c2FsZW0iMBIuChQKEgkjj043xSkDFRHhsRby5vQIpxAKKhQKEgmrwsBcxSkDFRHpjYkmcKTjkg&amp;ll=31.78297850,35.22627060&amp;navigate=yes&amp;utm_campaign=default,default&amp;utm_source=waze_website,waze_website&amp;utm_medium=lm_share_location",
+        "area": "",
+        "type": "",
+        "capacity": "80",
+        "operator": "Musrara photography school",
+        "address_label": "10 HaAyin Het St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Musrara - Morasha",
+        "row_number": 71,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7831014148958,35.2264040677971+(10+HaAyin+Het+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2267512880258,
+          31.7815450384733
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Morasha",
+        "shelter_no": "Public Shelter No.752",
+        "waze_link": "https://www.waze.com/ul?ll=31.78133530,35.22679420&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "Shelter",
+        "capacity": "80",
+        "operator": "Musrara photography school",
+        "address_label": "21 HaAyin Het St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Musrara - Morasha",
+        "row_number": 72,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7815450384733,35.2267512880258+(21+HaAyin+Het+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2270983,
+          31.78579592
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Morasha",
+        "shelter_no": "Public Shelter No.753",
+        "waze_link": "https://www.waze.com/ul?ll=31.78575030,35.22712230&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Eshkolot Community Administration",
+        "address_label": "16 Kheil HaHandasa St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Musrara - Morasha",
+        "row_number": 73,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78579592,35.2270983+(16+Kheil+HaHandasa+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19666642,
+          31.75640292
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.755",
+        "waze_link": "https://www.waze.com/ul?ll=31.75589460,35.19546320&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Jerusalem Municipality, Culture Department - Artist Victor Raubinov",
+        "address_label": "3 Dov Hoz St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 74,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75640292,35.19666642+(3+Dov+Hoz+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1946299,
+          31.75628558
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.756",
+        "waze_link": "https://www.waze.com/he/live-map/directions/סן-מרטין-1-ירושלים?to=place.w.23068990.230624360.540726",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Torah BeTziyon Tzedek\" youth movement",
+        "address_label": "1 San Martin St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 75,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75628558,35.1946299+(1+San+Martin+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19787365,
+          31.75571857
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.757",
+        "waze_link": "https://ul.waze.com/ul?place=EiBIYVNob21lciBTdCA1LCBKZXJ1c2FsZW0sIElzcmFlbCIwEi4KFAoSCRM73wXs1wIVERbJZ_Zebcq9EAUqFAoSCaWRVxPs1wIVEXnE1A94CFS_&amp;ll=31.75551790,35.19782000&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Jerusalem Municipality, Department for the Advancement of Youth and Young People (Youth Club)",
+        "address_label": "5 HaShomer St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 76,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75571857,35.19787365+(5+HaShomer+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1669116174373,
+          31.759541963516
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat Menachem",
+        "shelter_no": "Public Shelter No.803",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJnX4AwXnXAhURe_DTu4hDhdo&amp;ll=31.75950550,35.16694380&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.76052490,35.16441700&amp;navigate=yes&amp;zoom=16",
+        "area": "113",
+        "type": "",
+        "capacity": "90",
+        "operator": "\"Darchei Hayim\" yeshiva (dining room)",
+        "address_label": "17 Henrietta Szold St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Menachem",
+        "row_number": 77,
+        "google_maps_link": "https://www.google.com/maps/dir//31.759541963516,35.1669116174373+(17+Henrietta+Szold+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21965502,
+          31.76488511
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Emek Refaim",
+        "shelter_no": "Public Shelter No.804",
+        "waze_link": "https://www.waze.com/ul?ll=31.76468940,35.21961580&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "8 HaMelits St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "German Colony",
+        "row_number": 78,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76488511,35.21965502+(8+HaMelits+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21082471,
+          31.76235525
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.805",
+        "waze_link": "https://www.waze.com/ul?ll=31.76221390,35.21078690&amp;navigate=yes&amp;zoom=16",
+        "area": "370",
+        "type": "",
+        "capacity": "296",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "21 Yordei HaSira St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 79,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76235525,35.21082471+(21+Yordei+HaSira+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19194561,
+          31.79066778
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Givat Shaul",
+        "shelter_no": "Public Shelter No.808",
+        "waze_link": "https://www.waze.com/ul?ll=31.79070810,35.19171290&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Meitarim Community Administration",
+        "address_label": "27 Yisrael Najara St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Givat Shaul",
+        "row_number": 80,
+        "google_maps_link": "https://www.google.com/maps/dir//31.79066778,35.19194561+(27+Yisrael+Najara+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2107287751096,
+          31.7732564371017
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Rehavia",
+        "shelter_no": "Public Shelter No.809",
+        "waze_link": "https://www.waze.com/ul?ll=31.77329210,35.21079110&amp;navigate=yes&amp;zoom=16",
+        "area": "90",
+        "type": "",
+        "capacity": "72",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "9 Rashba St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Rehavia",
+        "row_number": 81,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7732564371017,35.2107287751096+(9+Rashba+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21668807,
+          31.77326342
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Rehavia",
+        "shelter_no": "Public Shelter No.810",
+        "waze_link": "https://www.waze.com/ul?ll=31.77310490,35.21664660&amp;navigate=yes&amp;zoom=16",
+        "area": "150",
+        "type": "Shelter",
+        "capacity": "120",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "9 Ovadia MeBartenora St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Rehavia",
+        "row_number": 82,
+        "google_maps_link": "https://www.google.com/maps/dir//31.77326342,35.21668807+(9+Ovadia+MeBartenora+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2074233475444,
+          31.7889017633605
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Mekor Baruch",
+        "shelter_no": "Public Shelter No.812",
+        "waze_link": "https://www.waze.com/ul?ll=31.78771930,35.21514760&amp;navigate=yes&amp;zoom=16",
+        "area": "110",
+        "type": "",
+        "capacity": "88",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "109 Rashi St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Makor Baruch",
+        "row_number": 83,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7889017633605,35.2074233475444+(109+Rashi+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1832669,
+          31.7556061
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Malha",
+        "shelter_no": "Public Shelter No.813",
+        "waze_link": "https://www.waze.com/ul?ll=31.75539630,35.18326690&amp;navigate=yes&amp;zoom=16",
+        "area": "",
+        "type": "",
+        "capacity": "96",
+        "operator": "Youth Promotion Department, Jerusalem Municipality",
+        "address_label": "7 Kdoshei Struma St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Malha",
+        "row_number": 84,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7556061,35.1832669+(7+Kdoshei+Struma+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1771236732554,
+          31.7592547412489
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.814",
+        "waze_link": "https://www.waze.com/ul?ll=31.75928850,35.17715950&amp;navigate=yes&amp;zoom=16",
+        "area": "130",
+        "type": "",
+        "capacity": "104",
+        "operator": "Yuvalim Community Administration",
+        "address_label": "3 Volta Ilit St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 85,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7592547412489,35.1771236732554+(3+Volta+Ilit+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1771236732554,
+          31.7592547412489
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.814 A",
+        "waze_link": "https://www.waze.com/ul?ll=31.75928850,35.17715950&amp;navigate=yes&amp;zoom=16",
+        "area": "130",
+        "type": "",
+        "capacity": "104",
+        "operator": "\"Beit HaKehilot\", Yuvalim Community Administration",
+        "address_label": "3 Volta Ilit St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 86,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7592547412489,35.1771236732554+(3+Volta+Ilit+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1752983,
+          31.76531568
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.815",
+        "waze_link": "https://ul.waze.com/ul?place=EilBaGFyb24gUmFiaW5vdmljaCBTdCAyLCBKZXJ1c2FsZW0sIElzcmFlbCIwEi4KFAoSCS9L49ae1wIVEdPf6AFdkQ3FEAIqFAoSCSsB47qe1wIVESPv_jfqKhDz&amp;ll=31.76515860,35.17575110&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?place=EilBaGFyb24gUmFiaW5vdmljaCBTdCAyLCBKZXJ1c2FsZW0sIElzcmFlbCIwEi4KFAoSCS9L49ae1wIVEdPf6AFdkQ3FEAIqFAoSCSsB47qe1wIVESPv_jfqKhDz&amp;ll=31.76515860,35.17575110&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.76214270,35.17558860&amp;navigate=yes&amp;zoom=16",
+        "area": "168",
+        "type": "",
+        "capacity": "134",
+        "operator": "music institute",
+        "address_label": "2 Aharon Rabinovich St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 87,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76531568,35.1752983+(2+Aharon+Rabinovich+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1752983,
+          31.76531568
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.815 A",
+        "waze_link": "https://www.waze.com/ul?ll=31.76515860,35.17575110&amp;navigate=yes&amp;zoom=16",
+        "area": "815 A",
+        "type": "",
+        "capacity": "136",
+        "operator": "\"Yad Avi\" synagogue",
+        "address_label": "2 Aharon Rabinovich St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 88,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76531568,35.1752983+(2+Aharon+Rabinovich+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2123859949165,
+          31.7716032630308
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Rehavia",
+        "shelter_no": "Public Shelter No.816",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJM9zN09XXAhURTWSaEw6ial8&amp;ll=31.77159700,35.21239370&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "120",
+        "type": "",
+        "capacity": "96",
+        "operator": "Holocaust survivors' organization, Jerusalem",
+        "address_label": "50 Azza St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Rehavia",
+        "row_number": 89,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7716032630308,35.2123859949165+(50+Azza+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2122816187098,
+          31.7607394299226
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.817",
+        "waze_link": "https://www.waze.com/ul?ll=31.76059170,35.21227390&amp;navigate=yes&amp;zoom=16",
+        "area": "",
+        "type": "",
+        "capacity": "96",
+        "operator": "Ginot Ha'Ir Community Administration",
+        "address_label": "7 Yehoshua Ben Gamla St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 90,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7607394299226,35.2122816187098+(7+Yehoshua+Ben+Gamla+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2136024,
+          31.78299762
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Mahane Yehuda",
+        "shelter_no": "Public Shelter No.821",
+        "waze_link": "https://www.waze.com/ul?ll=31.78316880,35.21364550&amp;navigate=yes&amp;zoom=16",
+        "area": "120",
+        "type": "",
+        "capacity": "96",
+        "operator": "Lev Ha'Ir Community Administration",
+        "address_label": "24 Einayim LaMishpat St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "City Center",
+        "row_number": 91,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78299762,35.2136024+(24+Einayim+LaMishpat+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2086146,
+          31.7554334
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.824",
+        "waze_link": "https://www.waze.com/ul?ll=31.75522360,35.20861460&amp;navigate=yes&amp;zoom=16",
+        "area": "150",
+        "type": "",
+        "capacity": "120",
+        "operator": "Mikro Theater, Culture Division, Jerusalem Municipality",
+        "address_label": "31 Rashbag St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 92,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7554334,35.2086146+(31+Rashbag+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20166873,
+          31.75360963
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.825",
+        "waze_link": "https://ul.waze.com/ul?place=EilFbGF6YXIgQmVuIFlhJ2lyIFN0IDI0LCBKZXJ1c2FsZW0sIElzcmFlbCIwEi4KFAoSCZtSCD3v1wIVEezBKQjiwp8LEBgqFAoSCW8IhzDv1wIVEbvxK7Yt_QLL&amp;ll=31.75342720,35.20165800&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "150",
+        "type": "",
+        "capacity": "120",
+        "operator": "\"Ariel\" youth movement",
+        "address_label": "24 Elazar Ben Yair St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 93,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75360963,35.20166873+(24+Elazar+Ben+Yair+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2253953,
+          31.78649294
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Mea She'arim",
+        "shelter_no": "Public Shelter No.826",
+        "waze_link": "https://ul.waze.com/ul?place=EiRPdHNhciBIYVNmYXJpbSBTdCwgSmVydXNhbGVtLCBJc3JhZWwiLiosChQKEgmXz7dR2ykDFRH-Qe0gKLye_hIUChIJS_zBNNbXAhURy-FuRT5ib9k&amp;ll=31.78663400,35.22526100&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "150",
+        "type": "",
+        "capacity": "120",
+        "operator": "\"Moreshet HaNahal\" yeshiva",
+        "address_label": "6 Otsar HaSfarim St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Mea Shearim",
+        "row_number": 94,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78649294,35.2253953+(6+Otsar+HaSfarim+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.16878,
+          31.75898
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat Menachem",
+        "shelter_no": "Public Shelter No.827",
+        "waze_link": "https://ul.waze.com/ul?ll=31.75898740,35.16883090&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Ariel\" youth movement",
+        "address_label": "4 Mexico St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Menachem",
+        "row_number": 95,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75898,35.16878+(4+Mexico+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21328746,
+          31.75971235
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.828",
+        "waze_link": "https://www.waze.com/ul?ll=31.75991040,35.21317850&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "boxing club",
+        "address_label": "10 HaRav Hasda St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 96,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75971235,35.21328746+(10+HaRav+Hasda+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.166039,
+          31.75350048
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Ir Ganim",
+        "shelter_no": "Public Shelter No.829",
+        "waze_link": "https://www.waze.com/ul?ll=31.75357350,35.16665050&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "32",
+        "operator": "\"Chai Tayeb\" synagogue",
+        "address_label": "9 HaRakefet St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Ir Ganim",
+        "row_number": 97,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75350048,35.166039+(9+HaRakefet+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21721693,
+          31.7915136
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Geula",
+        "shelter_no": "Public Shelter No.830",
+        "waze_link": "https://goo.gl/maps/xCPoFCgHhwo?ll=31.78767970,35.21894860&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Bucharim Community Administration",
+        "address_label": "25 Tsfanya St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Geula",
+        "row_number": 98,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7915136,35.21721693+(25+Tsfanya+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1954492,
+          31.7562636
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.831",
+        "waze_link": "https://www.waze.com/ul?ll=31.75589460,35.19546320&amp;navigate=yes&amp;zoom=16",
+        "area": "150",
+        "type": "",
+        "capacity": "120",
+        "operator": "Keshet Arts, Culture Division, Jerusalem Municipality",
+        "address_label": "7 Dov Hoz St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 99,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7562636,35.1954492+(7+Dov+Hoz+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2158986886004,
+          31.7722626584943
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Rehavia",
+        "shelter_no": "Public Shelter No.835",
+        "waze_link": "https://www.waze.com/ul?ll=31.77225570,35.21615190&amp;navigate=yes&amp;zoom=16",
+        "area": "190",
+        "type": "",
+        "capacity": "152",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "18 Arlozorov St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Rehavia",
+        "row_number": 100,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7722626584943,35.2158986886004+(18+Arlozorov+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21989257,
+          31.75968621
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Baka",
+        "shelter_no": "Public Shelter No.836",
+        "waze_link": "https://www.waze.com/ul?ll=31.75973420,35.21916510&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "27 Menashe St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Baka",
+        "row_number": 101,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75968621,35.21989257+(27+Menashe+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.16634432,
+          31.78743779
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Mekor Baruch",
+        "shelter_no": "Public Shelter No.839",
+        "waze_link": "https://www.waze.com/ul?ll=31.78756880,35.20890510&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "14 Tashbatz St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Makor Baruch",
+        "row_number": 102,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78743779,35.16634432+(14+Tashbatz+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.16703205,
+          31.75303908
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "",
+        "shelter_no": "Public Shelter No.840",
+        "waze_link": "https://www.waze.com/ul?ll=31.75297450,35.16710100&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "shelter",
+        "capacity": "32",
+        "operator": "\"Beit Chabad\" building",
+        "address_label": "70 Costa Rica St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Ir Ganim, Accessible Shelter",
+        "row_number": 103,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75303908,35.16703205+(70+Costa+Rica+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19538627,
+          31.75311816
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.842",
+        "waze_link": "https://www.waze.com/ul?ll=31.75301240,35.19558420&amp;navigate=yes&amp;zoom=16",
+        "area": "174",
+        "type": "",
+        "capacity": "139",
+        "operator": "synagogue for Israelis of Ethiopian origin",
+        "address_label": "8 Bar Yochai St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 104,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75311816,35.19538627+(8+Bar+Yochai+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.16653153,
+          31.75927128
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Ir Ganim",
+        "shelter_no": "Public Shelter No.901",
+        "waze_link": "https://ul.waze.com/ul?place=EiBJY2VsYW5kIFN0IDEzLCBKZXJ1c2FsZW0sIElzcmFlbCIwEi4KFAoSCVmA0b551wIVEehdh4WAcgmhEA0qFAoSCY9mtXh51wIVETGWJsiPzKKR&amp;ll=31.75910710,35.16652080&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "150",
+        "type": "",
+        "capacity": "120",
+        "operator": "\"David Moshe\" synagogue",
+        "address_label": "13 Iceland St",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Ir Ganim",
+        "row_number": 105,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75927128,35.16653153+(13+Iceland+St)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.16903666,
+          31.75487408
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Ir Ganim",
+        "shelter_no": "Public Shelter No.902",
+        "waze_link": "https://www.waze.com/ul?ll=31.75446060,35.16927980&amp;navigate=yes&amp;zoom=16",
+        "area": "250",
+        "type": "",
+        "capacity": "200",
+        "operator": "Ezra Movement, Society Division, Jerusalem Municipality",
+        "address_label": "29 HaNurit St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Ir Ganim",
+        "row_number": 106,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75487408,35.16903666+(29+HaNurit+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.16359315,
+          31.76842599
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Ein Karem",
+        "shelter_no": "Public Shelter No.903",
+        "waze_link": "https://ul.waze.com/ul?venue_id=23068990.230427753.362373&amp;overview=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "120",
+        "type": "",
+        "capacity": "96",
+        "operator": "Artists' studio, Ein Kerem Community Center",
+        "address_label": "82 Homat HaTzalafim St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Ein Kerem",
+        "row_number": 107,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76842599,35.16359315+(82+Homat+HaTzalafim+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2112935,
+          31.79038842
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Geula",
+        "shelter_no": "Public Shelter No.904",
+        "waze_link": "https://www.waze.com/ul?ll=31.78996270,35.21151270&amp;navigate=yes&amp;zoom=16",
+        "area": "125",
+        "type": "",
+        "capacity": "100",
+        "operator": "Sanitation Division, Jerusalem Municipality",
+        "address_label": "7 HaZayit St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Geula",
+        "row_number": 108,
+        "google_maps_link": "https://www.google.com/maps/dir//31.79038842,35.2112935+(7+HaZayit+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19884543,
+          31.75430501
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.906",
+        "waze_link": "https://ul.waze.com/ul?preview_venue_id=23068990.230689895.203291&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.75330350,35.19301290&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Gal Avraham\" synagogue",
+        "address_label": "2 Bar Yochai St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 109,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75430501,35.19884543+(2+Bar+Yochai+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2094209745319,
+          31.7887720246485
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Mekor Baruch",
+        "shelter_no": "Public Shelter No.909",
+        "waze_link": "https://www.waze.com/ul?ll=31.78975390,35.20947140&amp;navigate=yes&amp;zoom=16",
+        "area": "120",
+        "type": "",
+        "capacity": "96",
+        "operator": "Toar Gallery, Culture Division, Jerusalem Municipality",
+        "address_label": "7 Yehuda HaMaccabi St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Makor Baruch",
+        "row_number": 110,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7887720246485,35.2094209745319+(7+Yehuda+HaMaccabi+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21486308,
+          31.79171933
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Bukharim",
+        "shelter_no": "Public Shelter No.910",
+        "waze_link": "https://ul.waze.com/ul?ll=31.79114300,35.21504600&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.79162200,35.21488460&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Karlin Hassidic community's \"Beit Bracha\"",
+        "address_label": "Ovadya St 22",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Beit Israel - Bucharim",
+        "row_number": 111,
+        "google_maps_link": "https://www.google.com/maps/dir//31.79171933,35.21486308+(Ovadya+St+22)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21757937,
+          31.78741269
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Zikhron Moshe",
+        "shelter_no": "Public Shelter No.928",
+        "waze_link": "https://www.waze.com/ul?ll=31.78725650,35.21731920&amp;navigate=yes&amp;zoom=16",
+        "area": "130",
+        "type": "",
+        "capacity": "104",
+        "operator": "\"Or Leah\" organization",
+        "address_label": "8 Pri Hadash St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "City Center",
+        "row_number": 113,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78741269,35.21757937+(8+Pri+Hadash+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21285728,
+          31.78310575
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "City Center",
+        "shelter_no": "Public Shelter No.932",
+        "waze_link": "https://ul.waze.com/ul?place=EiFIYUdpbGJvYSBTdCAzOCwgSmVydXNhbGVtLCBJc3JhZWwiMBIuChQKEgkhztCxKdYCFRHA7K3epOigOxAmKhQKEglpw1uyKdYCFRFW4en6mwII9Q&amp;ll=31.78300580,35.21286900&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Lev Ha'Ir Community Administration",
+        "address_label": "38 HaGilboa St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "City Center",
+        "row_number": 114,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78310575,35.21285728+(38+HaGilboa+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1991455,
+          31.79601192
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Romema",
+        "shelter_no": "Public Shelter No.933",
+        "waze_link": "https://www.waze.com/ul?ll=31.79611500,35.19930460&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Lev Malka\" organization",
+        "address_label": "38 HaMem Gimel St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Romema",
+        "row_number": 115,
+        "google_maps_link": "https://www.google.com/maps/dir//31.79601192,35.1991455+(38+HaMem+Gimel+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21055875,
+          31.7827654
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Mahane Yehuda",
+        "shelter_no": "Public Shelter No.935",
+        "waze_link": "https://www.waze.com/ul?ll=31.78237690,35.21106920&amp;navigate=yes&amp;zoom=16",
+        "area": "170",
+        "type": "",
+        "capacity": "136",
+        "operator": "community synagogue",
+        "address_label": "28 Be'er Sheva St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "City Center",
+        "row_number": 116,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7827654,35.21055875+(28+Be'er+Sheva+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20969289,
+          31.76174784
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Old Katamon",
+        "shelter_no": "Public Shelter No.937",
+        "waze_link": "https://www.waze.com/ul?ll=31.76147420,35.20966070&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Youth Promotion Department, Education Division, Jerusalem Municipality",
+        "address_label": "38 Hizkiyahu HaMelech St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 117,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76174784,35.20969289+(38+Hizkiyahu+HaMelech+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20100356,
+          31.77218105
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "",
+        "shelter_no": "Public Shelter No.939",
+        "waze_link": "https://www.waze.com/ul?ll=31.77201690,35.20105720&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "shelter",
+        "capacity": "80",
+        "operator": "Koom-Koom Theatre, Culture Division, Jerusalem Municipality",
+        "address_label": "17 Neve Sha'anan St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Neve Shaanan, Accessible Shelter",
+        "row_number": 118,
+        "google_maps_link": "https://www.google.com/maps/dir//31.77218105,35.20100356+(17+Neve+Sha'anan+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22008993,
+          31.7511988668086
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Talpiot",
+        "shelter_no": "Public Shelter No.940",
+        "waze_link": "https://ul.waze.com/ul?ll=31.75058740,35.21983800&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.75058740,35.21983800&amp;navigate=yes&amp;zoom=16?ll=31.75058740,35.21983800&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Ezra\" youth movement",
+        "address_label": "17 Shalom Yehuda St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Talpiyot - Arnona",
+        "row_number": 119,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7511988668086,35.22008993+(17+Shalom+Yehuda+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20729202,
+          31.7654734829433
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Giv'at HaVradim (Rassco)",
+        "shelter_no": "Public Shelter No.949",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJ_7CQUtrXAhURolBdWhnilZE&amp;ll=31.76542790,35.20724910&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Ginot Ha'Ir Community Administration",
+        "address_label": "33 HaTayasim St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Rassco - Givat HaVradim",
+        "row_number": 120,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7654734829433,35.20729202+(33+HaTayasim+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2189116,
+          31.7946169685596
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Shmuel HaNavi",
+        "shelter_no": "Public Shelter No.957",
+        "waze_link": "https://www.waze.com/ul?ll=31.79442760,35.21904880&amp;navigate=yes&amp;zoom=16?ll=31.79442760,35.21904880&amp;navigate=yes&amp;zoom=16",
+        "area": "450",
+        "type": "",
+        "capacity": "360",
+        "operator": "\"Agudat Or HaTzafon\" synagogue",
+        "address_label": "19 Avinadav St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Shmuel HaNavi",
+        "row_number": 121,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7946169685596,35.2189116+(19+Avinadav+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21112847,
+          31.78076286
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Mahane Yehuda",
+        "shelter_no": "Public Shelter No.961",
+        "waze_link": "https://www.waze.com/ul?ll=31.78054400,35.21113920&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Ariel\" youth movement",
+        "address_label": "17 Even Sapir St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "City Center",
+        "row_number": 122,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78076286,35.21112847+(17+Even+Sapir+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1773224039463,
+          31.7658358392997
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.963",
+        "waze_link": "https://www.waze.com/ul?ll=31.76588580,35.17830050&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Siach Yisrael\" synagogue",
+        "address_label": "11 Yisrael Zangvill St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 123,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7658358392997,35.1773224039463+(11+Yisrael+Zangvill+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1760216039467,
+          31.7572860741135
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.964",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJIZwyUYPXAhURT1-jX4DK4Oc&amp;ll=31.75728610,35.17602160&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.75752170,35.17606360&amp;navigate=yes&amp;zoom=16",
+        "area": "",
+        "type": "",
+        "capacity": "144",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "8 Meir Grunwald St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 124,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7572860741135,35.1760216039467+(8+Meir+Grunwald+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19636583,
+          31.75373649
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.965",
+        "waze_link": "https://www.waze.com/ul?ll=31.75388930,35.19664720&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Havatzelet HaSharon\" synagogue",
+        "address_label": "7 Yitzhak Sadeh St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 125,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75373649,35.19636583+(7+Yitzhak+Sadeh+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.209264,
+          31.75888667
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.967",
+        "waze_link": "https://ul.waze.com/ul?ll=31.75851250,35.20964050&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.75795620,35.20953250&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Ariel\" movement",
+        "address_label": "7 Antignos St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 126,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75888667,35.209264+(7+Antignos+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20875076,
+          31.75687008
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.969- Eligible",
+        "waze_link": "https://www.waze.com/ul?ll=31.75672320,35.20875450&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Sports Division, Jerusalem Municipality",
+        "address_label": "16 Yossi Ben Yo'ezer St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 127,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75687008,35.20875076+(16+Yossi+Ben+Yo'ezer+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2120205039462,
+          31.7678482602372
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat Shmuel",
+        "shelter_no": "Public Shelter No.971",
+        "waze_link": "https://www.waze.com/ul?ll=31.76789020,35.21214120&amp;navigate=yes&amp;zoom=16?ll=31.76789020,35.21214120&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Ginot Ha'ir Community Administration",
+        "address_label": "16 HaPalmach St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Shmuel, Accessible Shelter",
+        "row_number": 128,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7678482602372,35.2120205039462+(16+HaPalmach+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2142244,
+          31.7762808948042
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Rehavia",
+        "shelter_no": "Public Shelter No.972",
+        "waze_link": "https://www.waze.com/ul?ll=31.77618920,35.21420920&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Beit Yael\", Culture Division, Jerusalem Municipality",
+        "address_label": "26 AlHarizi St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Rehavia",
+        "row_number": 129,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7762808948042,35.2142244+(26+AlHarizi+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21665559,
+          31.77791035
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "City Center",
+        "shelter_no": "Public Shelter No.973",
+        "waze_link": "https://www.waze.com/ul?ll=31.77962700,35.21560500&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Drama school, Youth Promotion Department, Education Division, Municipality of Jerusalem",
+        "address_label": "5 HaRav Aviyada St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "City Center",
+        "row_number": 130,
+        "google_maps_link": "https://www.google.com/maps/dir//31.77791035,35.21665559+(5+HaRav+Aviyada+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2147312,
+          31.7798829422441
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "City Center",
+        "shelter_no": "Public Shelter No.974",
+        "waze_link": "https://www.waze.com/ul?ll=31.77795129,35.21585941&amp;navigate=yes&amp;zoom=17",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Youth Promotion Department, Education Division, Jerusalem Municipality",
+        "address_label": "9 Shmuel Hanagid St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "City Center",
+        "row_number": 131,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7798829422441,35.2147312+(9+Shmuel+Hanagid+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2017481039452,
+          31.7944769740967
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Romema",
+        "shelter_no": "Public Shelter No.975 A",
+        "waze_link": "https://www.waze.com/ul?ll=31.79447700,35.20174810&amp;navigate=yes&amp;zoom=16",
+        "area": "50",
+        "type": "",
+        "capacity": "40",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "15 Zichron Ya'akov St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Romema",
+        "row_number": 132,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7944769740967,35.2017481039452+(15+Zichron+Ya'akov+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20202255,
+          31.79422544982
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Romema",
+        "shelter_no": "Public Shelter No.975 B",
+        "waze_link": "https://www.waze.com/ul?ll=31.79422280,35.20198890&amp;navigate=yes&amp;zoom=16",
+        "area": "50",
+        "type": "",
+        "capacity": "40",
+        "operator": "\"Drachei Miryam\" organization",
+        "address_label": "17 Zichron Ya'akov St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Romema",
+        "row_number": 133,
+        "google_maps_link": "https://www.google.com/maps/dir//31.79422544982,35.20202255+(17+Zichron+Ya'akov+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.202190017436,
+          31.793954774097
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Romema",
+        "shelter_no": "Public Shelter No.975 C",
+        "waze_link": "https://www.waze.com/ul?ll=31.79395480,35.20222220&amp;navigate=yes&amp;zoom=16",
+        "area": "50",
+        "type": "",
+        "capacity": "40",
+        "operator": "Lev Malka\" organization",
+        "address_label": "19 Zichron Ya'akov St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Romema",
+        "row_number": 134,
+        "google_maps_link": "https://www.google.com/maps/dir//31.793954774097,35.202190017436+(19+Zichron+Ya'akov+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2021969751088,
+          31.7935355120931
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Romema",
+        "shelter_no": "Public Shelter No.975 D",
+        "waze_link": "https://www.waze.com/ul?ll=31.79351730,35.20220770&amp;navigate=yes&amp;zoom=16",
+        "area": "50",
+        "type": "",
+        "capacity": "40",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "21 Zichron Ya'akov St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Romema",
+        "row_number": 135,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7935355120931,35.2021969751088+(21+Zichron+Ya'akov+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19197755,
+          31.75536971
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "",
+        "shelter_no": "Public Shelter No.976",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJMUAAJ5PXAhURSk1hhwH4ldk&amp;ll=31.75531500,35.19199900&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.75548000,35.19248900&amp;navigate=yes&amp;zoom=16",
+        "area": "50",
+        "type": "shelter",
+        "capacity": "40",
+        "operator": "organization of Israelis of Kurdish origin",
+        "address_label": "41 Avraham Elmaliach St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim, Accessible Shelter",
+        "row_number": 136,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75536971,35.19197755+(41+Avraham+Elmaliach+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1973343,
+          31.78641411
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat Moshe",
+        "shelter_no": "Public Shelter No.977",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJ3ZUHpDbWAhURHIIWFfInH14&amp;ll=31.78621350,35.19733430&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.78662370,35.19703000&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Meitarim Community Administration",
+        "address_label": "23 Gat St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Moshe",
+        "row_number": 137,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78641411,35.1973343+(23+Gat+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1955500885998,
+          31.7875374957523
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat Moshe",
+        "shelter_no": "Public Shelter No.978",
+        "waze_link": "https://ul.waze.com/ul?venue_id=23068990.230689899.323781&amp;overview=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Meitarim Community Administration",
+        "address_label": "13 HaRav Tzvi Yehuda St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Moshe",
+        "row_number": 138,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7875374957523,35.1955500885998+(13+HaRav+Tzvi+Yehuda+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2010827327815,
+          31.7950738175648
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Romema",
+        "shelter_no": "Public Shelter No.979",
+        "waze_link": "https://www.waze.com/ul?ll=31.79510120,35.20107200&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Hanichei HaYeshivot Romema\" synagogue",
+        "address_label": "10 Zichron Ya'akov St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Romema, Accessible Shelter",
+        "row_number": 139,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7950738175648,35.2010827327815+(10+Zichron+Ya'akov+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21700545,
+          31.7551778
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Baka",
+        "shelter_no": "Public Shelter No.980",
+        "waze_link": "https://www.waze.com/ul?ll=31.75523270,35.21645890&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "22 ​Rivka St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Baka",
+        "row_number": 140,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7551778,35.21700545+(22+​Rivka+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1920082039468,
+          31.7543415655686
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.981",
+        "waze_link": "https://ul.waze.com/ul?place=ChIJXektxJLXAhURWAH2ZCVVPQs&amp;ll=31.75430510,35.19200820&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.75481470,35.19195140&amp;navigate=yes&amp;zoom=16",
+        "area": "50",
+        "type": "",
+        "capacity": "40",
+        "operator": "\"Tzofim\", Society Division, Jerusalem Municipality",
+        "address_label": "27 Avraham Elmaliach St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 141,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7543415655686,35.1920082039468+(27+Avraham+Elmaliach+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1770386192918,
+          31.7665768607391
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.983",
+        "waze_link": "https://www.waze.com/ul?ll=31.76654040,35.17699570&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Ezra\" youth movement",
+        "address_label": "10 Gordon St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel, Accessible Shelter",
+        "row_number": 142,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7665768607391,35.1770386192918+(10+Gordon+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2212796,
+          31.76190746
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Baka",
+        "shelter_no": "Public Shelter No.984",
+        "waze_link": "https://www.waze.com/ul?ll=31.76170680,35.22127960&amp;navigate=yes&amp;zoom=16",
+        "area": "160",
+        "type": "",
+        "capacity": "128",
+        "operator": "Jerusalem Municipality, Culture Department, Beit Yael",
+        "address_label": "11 Ya'el St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Baka",
+        "row_number": 143,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76190746,35.2212796+(11+Ya'el+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21869972,
+          31.78547133
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "City Center",
+        "shelter_no": "Public Shelter No.985",
+        "waze_link": "https://www.waze.com/ul?ll=31.78526160,35.21873190&amp;navigate=yes&amp;zoom=16",
+        "area": "50",
+        "type": "",
+        "capacity": "40",
+        "operator": "\"Helek MiMeni Bracha VeHesed\" organization (assistance to the needy)",
+        "address_label": "13 Strauss St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "City Center",
+        "row_number": 144,
+        "google_maps_link": "https://www.google.com/maps/dir//31.78547133,35.21869972+(13+Strauss+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2089806039466,
+          31.7592267741127
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Katamon",
+        "shelter_no": "Public Shelter No.987",
+        "waze_link": "https://ul.waze.com/ul?place=EjBSYWJhbiBZb2hhbmFuIGJlbiBaYWthaSBTdCAzOCwgSmVydXNhbGVtLCBJc3JhZWwiMBIuChQKEgmdO9jZ3dcCFRELYi1aT5fa_xAmKhQKEgkfJuoF3tcCFRFvPt8-yjbViA&amp;ll=31.75924130,35.20897780&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "\"Ohel Moshe\" synagogue",
+        "address_label": "38 Yohanan Ben Zakai St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Gonenim - Katamonim",
+        "row_number": 145,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7592267741127,35.2089806039466+(38+Yohanan+Ben+Zakai+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1730133034474,
+          31.7641269998997
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "",
+        "shelter_no": "Public Shelter No. 991",
+        "waze_link": "https://ul.waze.com/ul?place=EiZBdnJhaGFtIFNoYXJvbiBTdCAyLCBKZXJ1c2FsZW0sIElzcmFlbCIwEi4KFAoSCfGOul6e1wIVEbbsRYsnkxleEAIqFAoSCX05XFme1wIVEQtMU9AWQYOP&amp;ll=31.76390810,35.17301330&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location",
+        "area": "",
+        "type": "Shelter",
+        "capacity": "",
+        "operator": "",
+        "address_label": "Avraham Sharon  2, Jerusalem",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 146,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7641269998997,35.1730133034474+(Avraham+Sharon +2,+Jerusalem)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1774812039463,
+          31.7632566741108
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.992",
+        "waze_link": "https://ul.waze.com/ul?place=EjVNYSdhbG90IFlpdHNoYWsgVHN2aSBFdGluZ2VyIFN0IDE5LCBKZXJ1c2FsZW0sIElzcmFlbCIwEi4KFAoSCSOm1k2Z1wIVEeud_nszKpK9EBMqFAoSCenJ-zWZ1wIVEfz1iyEpg8r-&amp;ll=31.76325670,35.17748120&amp;navigate=yes&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location?ll=31.76306080,35.17719380&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "19 Etinger St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 147,
+        "google_maps_link": "https://www.google.com/maps/dir//31.7632566741108,35.1774812039463+(19+Etinger+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1746754,
+          31.76409128
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Kiryat HaYovel",
+        "shelter_no": "Public Shelter No.993",
+        "waze_link": "https://www.waze.com/ul?ll=31.76336200,35.17455000&amp;navigate=yes&amp;zoom=16?ll=31.76336200,35.17455000&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Mashu-Mashu Theatre, Culture Division, Jerusalem Municipality",
+        "address_label": "3 Kleinman St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Kiryat Yovel",
+        "row_number": 148,
+        "google_maps_link": "https://www.google.com/maps/dir//31.76409128,35.1746754+(3+Kleinman+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.220897,
+          31.75755932
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "Baka",
+        "shelter_no": "Public Shelter No.995",
+        "waze_link": "https://www.waze.com/ul?ll=31.75734040,35.22089700&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Baka Community Administration",
+        "address_label": "3 Levi St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "Baka",
+        "row_number": 149,
+        "google_maps_link": "https://www.google.com/maps/dir//31.75755932,35.220897+(3+Levi+St.)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.24163187,
+          31.80571068
+        ]
+      },
+      "properties": {
+        "﻿neighborhood": "French Hill",
+        "shelter_no": "Public Shelter No.998",
+        "waze_link": "https://www.waze.com/ul?ll=31.80554010,35.24143650&amp;navigate=yes&amp;zoom=16",
+        "area": "100",
+        "type": "",
+        "capacity": "80",
+        "operator": "Emergency and Security Division, Jerusalem Municipality",
+        "address_label": "6 Aba Berdichev St.",
+        "Administration": "",
+        "neighborhood": "",
+        "name_other": "French Hill",
+        "row_number": 150,
+        "google_maps_link": "https://www.google.com/maps/dir//31.80571068,35.24163187+(6+Aba+Berdichev+St.)"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "Jerusalem Emergency Shelters",
+    "description": "Emergency shelter locations in Jerusalem",
+    "source": "Jerusalem Municipality",
+    "total_features": 148,
+    "coordinate_system": "WGS84"
+  }
+}

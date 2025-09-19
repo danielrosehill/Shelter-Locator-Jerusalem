@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerusalem Shelter Locator</title>
+    <meta name="description" content="Find the nearest emergency shelters in Jerusalem based on your location">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Jerusalem Shelter Locator</h1>
+            <p class="subtitle">Find the nearest emergency shelters in your area</p>
+        </header>
+
+        <!-- Important Disclaimer -->
+        <div class="disclaimer">
+            <div class="disclaimer-icon">!</div>
+            <div class="disclaimer-content">
+                <h3>Important Disclaimer</h3>
+                <p>This application is not a substitute for official emergency information. Always consult official government sources and emergency services for the most current information.</p>
+                <p class="data-source">Data source: Jerusalem Municipality (September 19, 2025)</p>
+            </div>
+        </div>
+
+        <!-- Location Input Section -->
+        <div class="location-section">
+            <h2>Your Location</h2>
+            
+            <!-- Location Options -->
+            <div class="location-options">
+                <button id="useCurrentLocationBtn" class="btn btn-primary">
+                    Use Current Location
+                </button>
+                
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+                
+                <div class="address-input-group">
+                    <input 
+                        type="text" 
+                        id="addressInput" 
+                        placeholder="Enter your address in Jerusalem..."
+                        class="address-input"
+                    >
+                    <button id="searchAddressBtn" class="btn btn-secondary">
+                    Search Address
+                </button>
+                </div>
+            </div>
+
+            <!-- Location Status -->
+            <div id="locationStatus" class="location-status hidden">
+                <div class="status-icon">✓</div>
+                <div class="status-text">
+                    <strong>Location found:</strong>
+                    <span id="currentLocationText"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loadingIndicator" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Finding nearest shelters...</p>
+        </div>
+
+        <!-- Results Section -->
+        <div id="resultsSection" class="results-section hidden">
+            <h2>🛡️ Nearest Shelters</h2>
+            
+            <!-- Tab Navigation -->
+            <div class="tab-navigation">
+                <button id="overviewTab" class="tab-btn active">
+                    <span class="btn-icon">📍</span>
+                    Overview
+                </button>
+                <button id="mapTab" class="tab-btn">
+                    <span class="btn-icon">🗺️</span>
+                    Map Only
+                </button>
+                <button id="listTab" class="tab-btn">
+                    <span class="btn-icon">📋</span>
+                    List Only
+                </button>
+                <button id="linksTab" class="tab-btn">
+                    <span class="btn-icon">🔗</span>
+                    Official Links
+                </button>
+            </div>
+            
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <!-- Overview Tab: Map + List -->
+                <div id="overviewContent" class="tab-pane active">
+                    <div class="map-container">
+                        <div id="map" class="map"></div>
+                    </div>
+                    <div class="list-section">
+                        <h3>📋 Shelter Details</h3>
+                        <div id="sheltersList" class="shelters-list">
+                            <!-- Shelter cards will be populated here -->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Map Only Tab -->
+                <div id="mapContent" class="tab-pane">
+                    <div class="map-container-full">
+                        <div id="mapFull" class="map-full"></div>
+                    </div>
+                </div>
+                
+                <!-- List Only Tab -->
+                <div id="listContent" class="tab-pane">
+                    <div id="sheltersListFull" class="shelters-list">
+                        <!-- Shelter cards will be populated here -->
+                    </div>
+                </div>
+                
+                <!-- Links Tab -->
+                <div id="linksContent" class="tab-pane">
+                    <div class="links-section">
+                        <div class="links-disclaimer">
+                            <div class="disclaimer-icon">!</div>
+                            <div class="disclaimer-content">
+                                <h3>Official Sources</h3>
+                                <p>For the most current and official emergency shelter information, please visit the Jerusalem Municipality official websites below.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="official-links">
+                            <div class="link-card">
+                                <div class="link-header">
+                                    <h4>English - Shelter List</h4>
+                                    <span class="link-type">Official List</span>
+                                </div>
+                                <p class="link-description">Complete list of emergency shelters in Jerusalem (English)</p>
+                                <a href="https://www.jerusalem.muni.il/en/residents/security/spaces/list/" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer" 
+                                   class="btn btn-primary link-btn">
+                                    <span class="btn-icon"></span>
+                                    Visit Official Page
+                                </a>
+                            </div>
+                            
+                            <div class="link-card">
+                                <div class="link-header">
+                                    <h4>Hebrew - Protected Spaces</h4>
+                                    <span class="link-type">מרחבים מוגנים</span>
+                                </div>
+                                <p class="link-description">רשימת מרחבים מוגנים בירושלים (עברית)</p>
+                                <a href="https://www.jerusalem.muni.il/he/residents/security/protected-spaces/" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer" 
+                                   class="btn btn-primary link-btn">
+                                    <span class="btn-icon"></span>
+                                    עבור לעמוד הרשמי
+                                </a>
+                            </div>
+                            
+                            <div class="link-card">
+                                <div class="link-header">
+                                    <h4>English - Interactive Map</h4>
+                                    <span class="link-type">Official Map</span>
+                                </div>
+                                <p class="link-description">Interactive map of protected spaces in Jerusalem</p>
+                                <a href="https://www.jerusalem.muni.il/en/residents/security/protected-spaces/" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer" 
+                                   class="btn btn-primary link-btn">
+                                    <span class="btn-icon"></span>
+                                    View Official Map
+                                </a>
+                            </div>
+                            
+                            <div class="emergency-contacts">
+                                <h4>Emergency Contacts</h4>
+                                <div class="contact-grid">
+                                    <div class="contact-item">
+                                        <span class="contact-number">100</span>
+                                        <span class="contact-service">Police</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <span class="contact-number">101</span>
+                                        <span class="contact-service">Ambulance</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <span class="contact-number">102</span>
+                                        <span class="contact-service">Fire Department</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <span class="contact-number">104</span>
+                                        <span class="contact-service">Municipal Hotline</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="error-message hidden">
+            <div class="error-icon">!</div>
+            <div class="error-content">
+                <h3>Error</h3>
+                <p id="errorText"></p>
+                <button id="retryButton" class="btn btn-secondary">Try Again</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+ 
+    </div>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
