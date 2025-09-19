@@ -49,20 +49,68 @@ class ShelterLocator {
     }
 
     bindEvents() {
+        // Add both click and touch events for better mobile support
         this.elements.useCurrentLocationBtn.addEventListener('click', () => this.getCurrentLocation());
+        this.elements.useCurrentLocationBtn.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            this.getCurrentLocation();
+        });
+        
         this.elements.searchAddressBtn.addEventListener('click', () => this.searchAddress());
+        this.elements.searchAddressBtn.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            this.searchAddress();
+        });
+        
         this.elements.addressInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') {
+                e.preventDefault();
                 this.searchAddress();
             }
         });
+        
         this.elements.retryButton.addEventListener('click', () => this.hideError());
-        // Tab event listeners
+        this.elements.retryButton.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            this.hideError();
+        });
+        
+        // Tab event listeners with touch support
         this.elements.overviewTab.addEventListener('click', () => this.switchTab('overview'));
+        this.elements.overviewTab.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            this.switchTab('overview');
+        });
+        
         this.elements.mapTab.addEventListener('click', () => this.switchTab('map'));
+        this.elements.mapTab.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            this.switchTab('map');
+        });
+        
         this.elements.listTab.addEventListener('click', () => this.switchTab('list'));
+        this.elements.listTab.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            this.switchTab('list');
+        });
+        
         this.elements.linksTab.addEventListener('click', () => this.switchTab('links'));
+        this.elements.linksTab.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            this.switchTab('links');
+        });
+        
         this.elements.exportPdfBtn.addEventListener('click', () => this.exportToPdf());
+        this.elements.exportPdfBtn.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            this.exportToPdf();
+        });
+        
+        // Add window resize handler for mobile orientation changes
+        window.addEventListener('resize', () => this.handleResize());
+        window.addEventListener('orientationchange', () => {
+            setTimeout(() => this.handleResize(), 100);
+        });
     }
 
     async loadShelterData() {
@@ -96,12 +144,19 @@ class ShelterLocator {
 
     getCurrentLocation() {
         if (!navigator.geolocation) {
-            this.showError('Geolocation is not supported by this browser.');
+            this.showError('Geolocation is not supported by this browser. Please enter your address manually.');
             return;
         }
 
         this.showLoading();
         this.elements.useCurrentLocationBtn.disabled = true;
+
+        // Mobile-friendly geolocation options
+        const options = {
+            enableHighAccuracy: false, // Use false for better mobile performance
+            timeout: 15000, // Longer timeout for mobile networks
+            maximumAge: 600000 // 10 minutes cache for mobile
+        };
 
         navigator.geolocation.getCurrentPosition(
             (position) => {
@@ -110,15 +165,22 @@ class ShelterLocator {
                     longitude: position.coords.longitude
                 };
                 
-                this.reverseGeocode(this.userLocation.latitude, this.userLocation.longitude)
-                    .then(address => {
-                        this.showLocationStatus(address || 'Current location');
-                        this.findNearestShelters();
-                    })
-                    .catch(() => {
-                        this.showLocationStatus('Current location');
-                        this.findNearestShelters();
-                    });
+                // Check if location is in Jerusalem area (rough bounds)
+                if (this.isLocationInJerusalem(position.coords.latitude, position.coords.longitude)) {
+                    this.reverseGeocode(this.userLocation.latitude, this.userLocation.longitude)
+                        .then(address => {
+                            this.showLocationStatus(address || 'Current location');
+                            this.findNearestShelters();
+                        })
+                        .catch(() => {
+                            this.showLocationStatus('Current location');
+                            this.findNearestShelters();
+                        });
+                } else {
+                    this.hideLoading();
+                    this.elements.useCurrentLocationBtn.disabled = false;
+                    this.showError('Your location appears to be outside Jerusalem. Please enter a Jerusalem address manually.');
+                }
             },
             (error) => {
                 this.hideLoading();
@@ -127,25 +189,21 @@ class ShelterLocator {
                 let errorMessage = 'Unable to get your location. ';
                 switch (error.code) {
                     case error.PERMISSION_DENIED:
-                        errorMessage += 'Please allow location access and try again.';
+                        errorMessage += 'Please allow location access in your browser settings and try again, or enter your address manually.';
                         break;
                     case error.POSITION_UNAVAILABLE:
-                        errorMessage += 'Location information is unavailable.';
+                        errorMessage += 'Location information is unavailable. Please try entering your address manually.';
                         break;
                     case error.TIMEOUT:
-                        errorMessage += 'Location request timed out.';
+                        errorMessage += 'Location request timed out. Please try again or enter your address manually.';
                         break;
                     default:
-                        errorMessage += 'An unknown error occurred.';
+                        errorMessage += 'An unknown error occurred. Please try entering your address manually.';
                         break;
                 }
                 this.showError(errorMessage);
             },
-            {
-                enableHighAccuracy: true,
-                timeout: 10000,
-                maximumAge: 300000 // 5 minutes
-            }
+            options
         );
     }
 
@@ -180,25 +238,75 @@ class ShelterLocator {
         // Using a simple geocoding approach with Nominatim (OpenStreetMap)
         try {
             const query = encodeURIComponent(`${address}, Jerusalem, Israel`);
-            const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=1`);
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
+            
+            const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=3&countrycodes=il`, {
+                signal: controller.signal,
+                headers: {
+                    'User-Agent': 'Jerusalem-Shelter-Locator/1.0'
+                }
+            });
+            
+            clearTimeout(timeoutId);
+            
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
             const data = await response.json();
             
             if (data && data.length > 0) {
-                return {
-                    latitude: parseFloat(data[0].lat),
-                    longitude: parseFloat(data[0].lon)
+                // Find the best match (preferably one that contains 'Jerusalem')
+                let bestMatch = data[0];
+                for (let result of data) {
+                    if (result.display_name && result.display_name.toLowerCase().includes('jerusalem')) {
+                        bestMatch = result;
+                        break;
+                    }
+                }
+                
+                const coords = {
+                    latitude: parseFloat(bestMatch.lat),
+                    longitude: parseFloat(bestMatch.lon)
                 };
+                
+                // Verify the coordinates are in Jerusalem area
+                if (this.isLocationInJerusalem(coords.latitude, coords.longitude)) {
+                    return coords;
+                } else {
+                    throw new Error('Address not found in Jerusalem area');
+                }
             }
             return null;
         } catch (error) {
-            console.error('Geocoding error:', error);
+            if (error.name === 'AbortError') {
+                console.error('Geocoding request timed out');
+            } else {
+                console.error('Geocoding error:', error);
+            }
             return null;
         }
     }
 
     async reverseGeocode(latitude, longitude) {
         try {
-            const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`);
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 8000); // 8 second timeout
+            
+            const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`, {
+                signal: controller.signal,
+                headers: {
+                    'User-Agent': 'Jerusalem-Shelter-Locator/1.0'
+                }
+            });
+            
+            clearTimeout(timeoutId);
+            
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
             const data = await response.json();
             
             if (data && data.display_name) {
@@ -206,7 +314,11 @@ class ShelterLocator {
             }
             return null;
         } catch (error) {
-            console.error('Reverse geocoding error:', error);
+            if (error.name === 'AbortError') {
+                console.error('Reverse geocoding request timed out');
+            } else {
+                console.error('Reverse geocoding error:', error);
+            }
             return null;
         }
     }
@@ -260,6 +372,36 @@ class ShelterLocator {
         return degrees * (Math.PI / 180);
     }
 
+    isLocationInJerusalem(latitude, longitude) {
+        // Jerusalem rough bounding box
+        const jerusalemBounds = {
+            north: 31.8500,
+            south: 31.7000,
+            east: 35.3000,
+            west: 35.1500
+        };
+        
+        return latitude >= jerusalemBounds.south && 
+               latitude <= jerusalemBounds.north && 
+               longitude >= jerusalemBounds.west && 
+               longitude <= jerusalemBounds.east;
+    }
+
+    handleResize() {
+        // Handle window resize and orientation changes
+        if (this.map) {
+            setTimeout(() => {
+                this.map.invalidateSize();
+            }, 100);
+        }
+        
+        if (this.mapFull) {
+            setTimeout(() => {
+                this.mapFull.invalidateSize();
+            }, 100);
+        }
+    }
+
     findNearestShelters() {
         if (!this.userLocation || this.shelters.length === 0) {
             this.showError('Unable to find shelters. Please try again.');
@@ -285,6 +427,9 @@ class ShelterLocator {
     }
 
     displayShelters(shelters) {
+        // Store shelters for PDF export
+        this.nearestShelters = shelters;
+        
         // Initialize maps if not already done
         if (!this.map) {
             this.initializeMap();
@@ -311,11 +456,13 @@ class ShelterLocator {
         // Set initial tab to overview
         this.switchTab('overview');
         
-        // Scroll to results
-        this.elements.resultsSection.scrollIntoView({ 
-            behavior: 'smooth',
-            block: 'start'
-        });
+        // Scroll to results with mobile-friendly behavior
+        setTimeout(() => {
+            this.elements.resultsSection.scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }, 100);
     }
 
     initializeMap() {

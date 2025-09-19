@@ -754,31 +754,205 @@ body {
     display: none;
 }
 
+/* Mobile Touch Improvements */
+@media (hover: none) and (pointer: coarse) {
+    /* This targets touch devices */
+    .btn:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .btn:active {
+        transform: scale(0.98);
+        transition: transform 0.1s ease;
+    }
+    
+    .tab-btn:hover:not(.active) {
+        background: transparent;
+        color: #4a5568;
+    }
+    
+    .tab-btn:active {
+        transform: scale(0.98);
+    }
+    
+    .shelter-card:hover {
+        transform: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .link-card:hover {
+        transform: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Prevent zoom on input focus for iOS */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    select,
+    textarea,
+    input[type="text"],
+    input[type="password"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="month"],
+    input[type="time"],
+    input[type="week"],
+    input[type="number"],
+    input[type="email"],
+    input[type="url"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="color"] {
+        font-size: 16px;
+    }
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     .container {
-        padding: 15px;
+        padding: 10px;
+        max-width: 100%;
+    }
+    
+    .header {
+        padding: 20px 15px;
+        margin-bottom: 20px;
     }
     
     .title {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .location-section,
+    .results-section {
+        padding: 20px 15px;
+        margin-bottom: 20px;
     }
     
     .address-input-group {
         flex-direction: column;
+        gap: 15px;
     }
     
+    .address-input {
+        width: 100%;
+        padding: 12px 15px;
+        font-size: 16px; /* Prevent zoom on iOS */
+    }
+    
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.95rem;
+        min-height: 48px; /* Better touch targets */
+    }
+    
+    /* Tab Navigation for Mobile */
+    .tab-navigation {
+        flex-wrap: wrap;
+        gap: 3px;
+    }
+    
+    .tab-btn {
+        flex: 1 1 calc(50% - 3px);
+        min-width: calc(50% - 3px);
+        padding: 10px 8px;
+        font-size: 0.85rem;
+        min-height: 44px;
+    }
+    
+    /* Map adjustments for mobile */
+    .map {
+        height: 300px;
+    }
+    
+    .map-full {
+        height: 400px;
+    }
+    
+    /* Shelter card mobile layout */
     .shelter-header {
         flex-direction: column;
         gap: 10px;
+        align-items: flex-start;
     }
     
-    .shelter-details {
-        grid-template-columns: 1fr 1fr;
+    .shelter-rank {
+        align-self: flex-start;
+    }
+    
+    .shelter-address {
+        font-size: 1.1rem;
+        line-height: 1.2;
+    }
+    
+    .shelter-distance-info {
+        padding: 15px;
+    }
+    
+    .distance-value {
+        font-size: 1.5rem;
+    }
+    
+    .time-estimates {
+        gap: 10px;
+    }
+    
+    .time-item {
+        padding: 10px;
+    }
+    
+    .info-grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
     }
     
     .shelter-actions {
         flex-direction: column;
+    }
+    
+    .directions-btn {
+        width: 100%;
+        justify-content: center;
+        min-height: 48px;
+    }
+    
+    /* Links section mobile */
+    .link-card {
+        padding: 20px 15px;
+    }
+    
+    .link-header {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    
+    .link-type {
+        align-self: flex-start;
+    }
+    
+    /* Emergency contacts mobile */
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .contact-item {
+        padding: 12px 8px;
+    }
+    
+    .contact-number {
+        font-size: 1.3rem;
+    }
+    
+    .contact-service {
+        font-size: 0.8rem;
     }
 }
 
@@ -962,12 +1136,66 @@ body {
 }
 
 @media (max-width: 480px) {
-    .location-section,
-    .results-section {
-        padding: 20px;
+    .container {
+        padding: 8px;
     }
     
-    .shelter-details {
+    .header {
+        padding: 15px 10px;
+    }
+    
+    .title {
+        font-size: 1.6rem;
+    }
+    
+    .location-section,
+    .results-section {
+        padding: 15px 10px;
+        margin-bottom: 15px;
+    }
+    
+    .disclaimer {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .tab-btn {
+        padding: 8px 6px;
+        font-size: 0.8rem;
+        min-height: 40px;
+    }
+    
+    .map {
+        height: 250px;
+    }
+    
+    .map-full {
+        height: 350px;
+    }
+    
+    .shelter-card {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .shelter-address {
+        font-size: 1rem;
+    }
+    
+    .distance-value {
+        font-size: 1.3rem;
+    }
+    
+    .info-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    
+    .link-card {
+        padding: 15px 10px;
     }
 }
